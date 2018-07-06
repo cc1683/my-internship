@@ -35,24 +35,24 @@
             <div class="container-fluid p-0">
                 <div class="row no-gutters text-center pt-1 pt-md-5">
                     <div class="col-12 d-flex flex-wrap">
-                        <div class="col-12 col-xl-6 my-auto">
+                        <div class="col-12 col-xl-6 my-auto order-first order-lg-last">
                             <div class="mt-3 mt-md-0">
                                 <img src="img/itw-logo-white.png" class="img-fluid" alt="itw logo" style="width: 160px">
                             </div>
                             <div class="w-100"></div>
                             <h3 class="pt-3 pb-3">About IT Wonders</h3>
                             <div class="w-100"></div>
-                            <h6 class="lead text-left text-md-center">
+                            <h6 class="lead text-left">
                                 IT Wonders established in Singapore in year 2014 then in Malaysia in year 2015 with a simple intention to help businesses and corporates to enhance their online branding and create more values to their customer through providing customized web development services.
                             </h6>
-                            <h6 class="lead text-left text-md-center mt-3">
+                            <h6 class="lead text-left mt-3">
                                 IT Wonders provided me a good learning platform to let me explore to the latest technology and get familiar with latest developement trends. I learned a lot of new things in IT Wonders and I will take this as a very good initial to continue my web developer career in the future.
                             </h6>
-                            <h6 class="lead text-left text-md-center mt-3">
+                            <h6 class="lead text-left mt-3 d-none d-md-block">
                                 The working environment here is very comfortable for the internship student since you will get a lot of chances to explore yourself to the new thing that you may never heared in your University. 
                             </h6>
                         </div>
-                        <div class="col-12 col-xl-6 p-3">
+                        <div class="col-12 col-xl-6 p-3 order-last order-lg-first">
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
@@ -82,20 +82,89 @@
                 </div>
             </div>
         </div>
-        <div class="section" id="section-3">
-            <div class="container">
-                <div class="row text-center justify-content-center">
-                    <h1>Section 3</h1>
+
+        <div class="section fp-auto-height-responsive" id="section-3">
+            <div class="container pt-0 pt-md-3 pb-0 pb-md-3">
+                <div class="page-header mt-0 mt-md-5">
+                    <h1 id="timeline">My Internship Journey</h1>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-badge primary"><i class="material-icons">class</i></div>
+                        <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h5 class="timeline-title">First day reporting to IT Wonders</h5>
+                            <p class="lead">5 February 2018</p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Meet cool boss, meet cool colleagues. Ready to work hard, play hard.
+                            </p>
+                        </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge warning"><i class="material-icons">class</i></div>
+                        <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h5 class="timeline-title">Working on client's project. Learn Xamarin</h5>
+                            <p class="lead">February 2018 - March 2018</p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Handle a client's project call Capchavate. Focus on front-end of this project. Learn Xamarin. Develop a simple demo Android app that implemented with Firebase push notification.
+                            </p>
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge primary"><i class="material-icons">class</i></div>
+                        <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h5 class="timeline-title">Focusing on IT Wonders website and learning SEO</h5>
+                            <p class="lead">April 2018 - May 2018</p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Modify the front-end part of IT Wonders website that based on October CMS. Learn SEO, and others useful tools such as, Google Analytics, Google Tag Manager.
+                            </p>
+                        </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge"><i class="material-icons">class</i></div>
+                        <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h5 class="timeline-title">Coding while learning designing and marketing</h5>
+                            <p class="lead">June 2018 - July 2018</p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                Learn some basic designing skill. Get tons of new knowledge that related to digital marketing.
+                            </p>
+                        </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>   
+        </div>
+        <!-- <div class="section fp-auto-height-responsive" id="section-4">
+            <div class="slide">
+                <div class="container">
+                    <h1>Slide 1</h1>
                 </div>
             </div>
-        </div>
-        <div class="section" id="section-4">
-            <div class="container">
-                <div class="row text-center justify-content-center">
-                    <h1>Section 4</h1>
+            <div class="slide">
+                <div class="container">
+                    <h1>Slide 1</h1>
                 </div>
             </div>
-        </div>
+            <div class="slide">
+                <div class="container">
+                    <h1>Slide 1</h1>
+                </div>
+            </div>
+        </div> -->
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
@@ -108,7 +177,14 @@
             $('#fullpage').fullpage({
                 verticalCentered: false,
                 responsiveWidth: '1200',
-                responsiveHeigh: '1200'
+                responsiveHeigh: '1450',
+                autoScrolling: true,
+                scrollHorizontally: true,
+                navigation: true,
+                navigationPosition: 'right',
+                showActiveTooltip: false,
+                slidesNavigation: true,
+                slidesNavPosition: 'bottom',
             });
         });
     </script>
