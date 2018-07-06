@@ -22,3 +22,12 @@ body {
     align-items: center;
     height: 100vh;
 }
+.list-group-item :first-child {
+    margin-right: 0.5rem;
+}
+.showcase-text {
+    padding: 7rem !important;
+}
+.showcase-img {
+    min-height: 30rem !important;
+}
